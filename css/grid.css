@@ -4,11 +4,6 @@
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 60px auto auto 140px;
-    grid-template-areas: 
-        "b1 b1 h h h h h h h h s s"
-        "b1 b1 c c c c c c c c c c"
-        "b1 b1 b2 b2 b2 b2 b2 b3 b3 b3 b3 b3"
-        "b1 b1 f f f f f f f f f f";
 }
 
 .header {
@@ -41,11 +36,7 @@
 
 @media screen and (max-width: 600px) {
     .container {
-        height: 100%;
-        display: grid;
-        grid-gap: 3px;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 60px auto auto 140px;
         grid-template-areas: 
             "h"
             "s"
@@ -59,11 +50,7 @@
 
 @media screen and (min-width: 600px) {
     .container {
-        height: 100%;
-        display: grid;
-        grid-gap: 3px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 60px auto auto 140px;
         grid-template-areas: 
             "h s"
             "b1 b1"
@@ -76,11 +63,7 @@
 
 @media screen and (min-width: 1000px) {
     .container {
-        height: 100%;
-        display: grid;
-        grid-gap: 3px;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 60px auto auto 140px;
         grid-template-areas: 
             "b1 b1 h h h h h h h h s s"
             "b1 b1 c c c c c c c c c c"
