@@ -60,9 +60,9 @@
     .container {
         grid-template-columns: repeat(12, 1fr);
         grid-template-areas: 
-            "b1 b1 h h h h h h h h s s"
-            "b1 b1 c c c c c c c c c c"
-            "b1 b1 b2 b2 b2 b2 b2 b3 b3 b3 b3 b3"
-            "b1 b1 f f f f f f f f f f";
+            "h h h h h h h h h h s s"
+            "c c c c c c c c c c c c"
+            "b1 b1 b1 b1 b2 b2 b2 b2 b3 b3 b3 b3"
+            "f f f f f f f f f f f f";
     }
 }
