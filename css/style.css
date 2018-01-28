@@ -11,25 +11,25 @@ body {
   color: black;
 }
 
-h2 {
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Poiret One', cursive;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 35px;
-  max-width: 810px;
-  margin-top: 10%;
-  color: black;
-}
-
 .search-logo {
-  font-family: 'Dancing Script', cursive;
   font-family: 'Poiret One', cursive;
   font-family: 'Quicksand', sans-serif;
-  float: right;
+  text-align: center;
 }
 
 .footer {
-  font-family: 'Dancing Script', cursive;
   font-family: 'Poiret One', cursive;
   font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .search-logo {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 1225px) {
+  .search-logo {
+    float: right;
+  }
 }
