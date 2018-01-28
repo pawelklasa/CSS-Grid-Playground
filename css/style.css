@@ -1,28 +1,27 @@
 .container > div {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
+    /* justify-content: center;
+    align-items: center; */
     color: #ffeead;
 }
 
 html, body {
-  background-color: #ffeead;
-  margin: 10px;
+  background-color: #fff;
+  margin: 0px;
+  margin-top: 30px;
 }
 
-.container > div:nth-child(1n) {
-  background-color: #96ceb4;	
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: black;
 }
 
-.container > div:nth-child(3n) {
-  background-color: #88d8b0;
-}
-
-.container > div:nth-child(2n) {
-      background-color: #ff6f69;
-}
-
-.container > div:nth-child(4n) {
-      background-color: #ffcc5c;
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Poiret One', cursive;
+  font-size: 35px;
+  max-width: 810px;
+  color: black;
 }

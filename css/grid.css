@@ -7,9 +7,6 @@
     grid-template-areas: 
         "h"
         "s"
-        "b1"
-        "b2"
-        "b3"
         "c"
         "f";
 }
@@ -48,9 +45,6 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
             "h s"
-            "b1 b1"
-            "b2 b2"
-            "b3 b3"
             "c c"
             "f f";
     }
@@ -58,11 +52,12 @@
 
 @media screen and (min-width: 1000px) {
     .container {
+        margin-left: 90px;
+        margin-right: 90px;
         grid-template-columns: repeat(12, 1fr);
         grid-template-areas: 
             "h h h h h h h h h h s s"
             "c c c c c c c c c c c c"
-            "b1 b1 b1 b1 b2 b2 b2 b2 b3 b3 b3 b3"
             "f f f f f f f f f f f f";
     }
 }
