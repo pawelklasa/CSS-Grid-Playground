@@ -1,27 +1,35 @@
-.container > div {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    color: #ffeead;
-}
-
-html, body {
+body {
   background-color: #fff;
-  margin: 0px;
-  margin-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 
 .logo {
   font-family: 'Dancing Script', cursive;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
 }
 
 h2 {
   font-family: 'Dancing Script', cursive;
   font-family: 'Poiret One', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: 35px;
   max-width: 810px;
+  margin-top: 10%;
   color: black;
+}
+
+.search-logo {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Quicksand', sans-serif;
+  float: right;
+}
+
+.footer {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Quicksand', sans-serif;
 }

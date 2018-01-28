@@ -3,7 +3,7 @@
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 60px auto auto 140px;
+    grid-template-rows: 60px 60px auto 30px;
     grid-template-areas: 
         "h"
         "s"
@@ -23,18 +23,6 @@
     grid-area: c;
 }
 
-.box-01 {
-    grid-area: b1;
-}
-
-.box-02 {
-    grid-area: b2;
-}
-
-.box-03 {
-    grid-area: b3;
-}
-
 .footer {
     grid-area: f;
 }
@@ -43,6 +31,7 @@
 @media screen and (min-width: 600px) {
     .container {
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 60px auto 30px;
         grid-template-areas: 
             "h s"
             "c c"
@@ -55,6 +44,7 @@
         margin-left: 90px;
         margin-right: 90px;
         grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 60px auto 30px;
         grid-template-areas: 
             "h h h h h h h h h h s s"
             "c c c c c c c c c c c c"
